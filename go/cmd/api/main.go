@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"os"
 
+	_ "github.com/denisenkom/go-mssqldb"
+
 	// See https://github.com/peopledatalabs/peopledatalabs-go
-
 	pdl "github.com/peopledatalabs/peopledatalabs-go"
-
 	pdlmodel "github.com/peopledatalabs/peopledatalabs-go/model"
 )
 
